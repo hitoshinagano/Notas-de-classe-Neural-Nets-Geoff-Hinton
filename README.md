@@ -9,8 +9,8 @@ Nessa aula é apresentado um diagrama, conforme abaixo:
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/Figura_aula_2c.png" width="350">
 
 O plano perpendicular ao vetor vermelho separa o espaço em duas lados:
-A) uma parte dos pontos cujo produto interno w.x é positivo (lado A)
-B) Outra parte com pontos cujo produto interno w.x é negativo (lado B)
+1. uma parte dos pontos cujo produto interno w.x é positivo (lado A)
+2. Outra parte com pontos cujo produto interno w.x é negativo (lado B)
 
 Se ponto x estiver classificado corretamente, o vetor w não precisa ser atualizado. Por exemplo, x é da classe 0 e o produto interno é negativo, então nada precisa ser feito. 
 
