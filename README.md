@@ -8,15 +8,22 @@ Nessa aula é apresentado um diagrama, conforme abaixo:
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/Figura_aula_2c.png" width="350">
 
-O plano perpendicular ao vetor vermelho separa o espaço em dois lados:
+Complementando a explicação do Prof. Hinton fiz a seguinte figura, na qual desenhei um plano.
+Um plano perpendicular ao vetor vermelho, que separa o espaço em dois lados:
 
 1. uma parte dos pontos cujo produto interno **w**.**x** é positivo (lado A)
 2. outra parte com pontos cujo produto interno **w**.**x** é negativo (lado B)
 
-Se ponto **x** estiver classificado corretamente, o vetor **w** não precisa ser atualizado. Por exemplo, **x** é da classe 0 e o produto interno é negativo, então nada precisa ser feito. 
+<img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/plano_e_seus_dois_lados.png" width="350">
 
-Ao contrário, se **x** estiver classificado incorretamente (por exemplo, **x** é classe 1), pelas regras de atualização do perceptron, **w**<-**w**+**x**. 
+Se ponto **x** estiver classificado corretamente, o vetor **w** não precisa ser atualizado. 
+Por exemplo, **x** é da classe 0 e o produto interno é negativo, então nada precisa ser feito. 
+
+Ao contrário, se **x** estiver classificado incorretamente (por exemplo, **x** é classe 1), pelas regras de atualização do perceptron,
+será efetuado **w**<-**w**+**x**. 
 A atualização de **w**<-**w**+**x** gera um novo plano (em verde), sendo que o lado C corresponde a uma classificação dos pontos positivos, enquanto que o lado D aos pontos negativos. 
+
+<img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/apos_soma_w_com_x.png" width="350">
 
 A atualização de **w**<-**w**+**x** faz com que **w** se "aproxime" de x. (**w** é "puxado" no sentido de **x**). Essa aproximação faz com que as chances do produto interno se tornar positivo aumentem. Veja, se dois vetores tem um ângulo maior que 90graus, somar **x** ao vetor **w**, fará o ângulo diminuir. 
 
