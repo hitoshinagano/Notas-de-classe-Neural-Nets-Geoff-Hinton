@@ -7,4 +7,4 @@ Algumas notas de classes sobre a matéria, observações e também algumas dúvi
 Nessa aula é apresentado um diagrama, conforme abaixo:
 
 
-<img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/Figura_aula_2c.png" width="200">
+<img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/Figura_aula_2c.png" width="350">
