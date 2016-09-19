@@ -8,7 +8,8 @@ Nessa aula é apresentado um diagrama, conforme abaixo:
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/Figura_aula_2c.png" width="350">
 
-O plano perpendicular ao vetor vermelho separa o espaço em duas lados:
+O plano perpendicular ao vetor vermelho separa o espaço em dois lados:
+
 1. uma parte dos pontos cujo produto interno w.x é positivo (lado A)
 2. Outra parte com pontos cujo produto interno w.x é negativo (lado B)
 
