@@ -17,11 +17,10 @@ Um plano perpendicular ao vetor vermelho (linha grossa em vermelho), que separa 
 1. conjunto dos pontos cujo produto interno **w**.**x** é positivo (lado A)
 2. outro conjunto dos pontos cujo produto interno **w**.**x** é negativo (lado B)
 
-Se ponto **x** estiver classificado corretamente, o vetor **w** não precisa ser atualizado. 
-Por exemplo, **x** é da classe 0 e o produto interno é negativo, então nada precisa ser feito. 
+Se ponto **x** estivesse classificado corretamente, o vetor **w** não precisaria ser atualizado. 
+Por exemplo, se **x** fosse da classe 0 e o produto interno sendo negativo, então nada precisaria ser feito e **w** não precisaria ser alterado. 
 
-Ao contrário, se **x** estiver classificado incorretamente (por exemplo, **x** é classe 1), pelas regras de atualização do perceptron,
-será efetuado **w**<-**w**+**x**. 
+Ao contrário, no exemplo do Prof. Hinto, **x** é da classe 1, e está classificado incorretamente. Pelas regras de atualização do perceptron, será efetuado **w**<-**w**+**x**. 
 A atualização de **w**<-**w**+**x** gera um novo plano (em verde), sendo que o lado C corresponde a uma classificação dos pontos positivos, enquanto que o lado D aos pontos negativos. 
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/apos_soma_w_com_x.png" width="500">
