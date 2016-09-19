@@ -17,7 +17,7 @@ Um plano perpendicular ao vetor vermelho (linha grossa em vermelho), que separa 
 1. conjunto dos pontos cujo produto interno **w**.**x** é positivo (lado A)
 2. outro conjunto dos pontos cujo produto interno **w**.**x** é negativo (lado B)
 
-Se ponto **x** estivesse classificado corretamente, o vetor **w** não precisaria ser atualizado. 
+Se ponto **x** tivesse sido classificado corretamente, o vetor **w** não precisaria ser atualizado. 
 Por exemplo, se **x** fosse da classe 0 e o produto interno sendo negativo, então nada precisaria ser feito e **w** não precisaria ser alterado. 
 
 Ao contrário, no exemplo do Prof. Hinton, **x** é da classe 1, e está classificado incorretamente. Pelas regras de atualização do perceptron, será efetuado **w**<-**w**+**x**. 
