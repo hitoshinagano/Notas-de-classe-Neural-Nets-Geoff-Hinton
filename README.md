@@ -12,10 +12,10 @@ Complementando a explicação do Prof. Hinton fiz a seguinte figura, na qual des
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/plano_e_seus_dois_lados.png" width="500">
 
-Um plano perpendicular ao vetor vermelho (linha grossa em vermelho), que separa o espaço em dois lados:<br>
+Um plano perpendicular ao vetor vermelho (linha grossa em vermelho), que separa o espaço em dois lados:
+
 1. uma parte dos pontos cujo produto interno **w**.**x** é positivo (lado A)
 2. outra parte com pontos cujo produto interno **w**.**x** é negativo (lado B)
-
 
 Se ponto **x** estiver classificado corretamente, o vetor **w** não precisa ser atualizado. 
 Por exemplo, **x** é da classe 0 e o produto interno é negativo, então nada precisa ser feito. 
