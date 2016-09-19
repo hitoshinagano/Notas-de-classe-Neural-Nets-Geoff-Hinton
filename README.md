@@ -6,4 +6,4 @@ Algumas notas de classes sobre a matéria, observações e também algumas dúvi
 
 Nessa aula é apresentado um diagrama, conforme abaixo:
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/Figura_aula_2c.png "Logo Title Text 1")
