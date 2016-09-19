@@ -8,11 +8,11 @@ Nessa aula é apresentado um diagrama, conforme abaixo:
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/Figura_aula_2c.png" width="350">
 
-Complementando a explicação do Prof. Hinton fiz a seguinte figura, na qual desenho um plano.
+Complementando a explicação do Prof. Hinton fiz a seguinte figura, na qual desenho um plano perpendicular ao vetor vermelho (linha grossa em vermelho)
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/plano_e_seus_dois_lados.png" width="500">
 
-Um plano perpendicular ao vetor vermelho (linha grossa em vermelho), que separa o espaço em dois lados:
+Esse plano separa o espaço em dois lados:
 
 1. conjunto dos pontos cujo produto interno **w**.**x** é positivo (lado A)
 2. outro conjunto dos pontos cujo produto interno **w**.**x** é negativo (lado B)
