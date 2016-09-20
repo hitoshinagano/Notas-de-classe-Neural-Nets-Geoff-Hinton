@@ -51,7 +51,7 @@ Agora, seja o vetor **w** = (-0.62, 0.76, 0.77) referente aos pesos. O ultimo el
 
 Note que nesse exemplo, o ponto **n** está classificado incorretamente, enquanto **p** está corretamente classificado.
 
-Agora sobre a interpretação geometrica do bias. A interseção do plano definido por 
+Agora sobre a interpretação geometrica do bias. A interseção desses dois planos: 
 
 * -0.62x + 0.76y + 0.77z = 0  
 * z = 1
