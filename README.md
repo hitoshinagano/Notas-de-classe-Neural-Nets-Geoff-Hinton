@@ -20,7 +20,7 @@ Esse plano separa o espaço em dois lados:
 Se ponto **x** tivesse sido classificado corretamente, o vetor **w** não precisaria ser atualizado. 
 Por exemplo, se **x** fosse da classe negativa e o produto interno sendo negativo, então nada precisaria ser feito e **w** não seria alterado. 
 
-Ao contrário, no exemplo do Prof. Hinton (quando **w** é o 'bad weight vector' e **x** é da classe 1), **x** está classificado incorretamente. Pelas regras de atualização do perceptron, será efetuado **w**<-**w**+**x**. 
+Ao contrário, no exemplo do Prof. Hinton (quando **w** é o 'bad weight vector' e **x** é da classe positiva), **x** está classificado incorretamente. Pelas regras de atualização do perceptron, será efetuado **w**<-**w**+**x**. 
 A atualização de **w**<-**w**+**x** gera um novo plano (em verde), sendo que o lado C corresponde a uma classificação dos pontos positivos, enquanto que o lado D aos pontos negativos. 
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/apos_soma_w_com_x.png" width="500">
