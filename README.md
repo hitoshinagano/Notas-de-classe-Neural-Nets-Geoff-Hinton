@@ -37,7 +37,7 @@ Então assim é a dinâmica do perceptron: um loop varre as observações, e a c
 
 Considere um ponto de classe negativa **n** = (-0.81, 0.84) e um outro de classe positiva **p** = (0.87, 0.62).<br>
 (Esses pontos correspondem as primeiras linhas da matriz `neg_examples_nobias` e `pos_example_nobias` do 
-arquivo `dataset1_ancient_octave.mat` do Assigment1 do curso. E o vetor de pesos **w** desse exemplo é o `w_init`)
+arquivo `dataset1_ancient_octave.mat` do Assigment1 do curso. E o vetor de pesos **w** é o `w_init`)
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/bias2D.jpg" width="500">
 
