@@ -41,7 +41,7 @@ arquivo `dataset1_ancient_octave.mat` do Assigment1 do curso. E o vetor de pesos
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/bias2D.jpg" width="500">
 
-Esses dois pontos encontram-se no plano 2D conforme a figura abaixo, mas vamos adicionar uma 3a dimensão que terá sempre valor 1. 
+Esses dois pontos encontram-se no plano 2D conforme a figura acima, mas vamos adicionar uma 3a dimensão que terá sempre valor 1. 
 Assim, esses dois pontos serão **n** = (-0.81, 0.84, 1) e **p** = (0.87, 0.62, 1). Note que esses dois pontos estão no plano z=1.
 
 Agora, seja o vetor **w** = (-0.62, 0.76, 0.77) referente aos pesos. O ultimo elemento de **w** corresponde ao bias. Esse vetor define um plano que passa pela origem e tem a seguinte equação: -0.62x + 0.76y + 0.77z = 0. Conforme visto anteriormente, esse plano separa o espaço em dois lados:
