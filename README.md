@@ -1,4 +1,4 @@
-# Notas de classe Neural Nets Prof. GeoffHinton
+# Notas de classe Neural Nets Prof. Geoff Hinton
 
 Algumas notas de classes sobre a matéria, observações e também algumas dúvidas.
 
@@ -35,19 +35,21 @@ Então assim é a dinâmica do perceptron: um loop varre as observações, e a c
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/bias.png" width="500">
 
-Considere um ponto de classe negativa **n** = (-0.81, 0.84) e um outro de classe positiva **p** = (0.87, 0.62)
+Considere um ponto de classe negativa **n** = (-0.81, 0.84) e um outro de classe positiva **p** = (0.87, 0.62).<br>
+(Esses pontos correspondem as primeiras linhas da matriz `neg_examples_nobias` e `pos_example_nobias` do 
+arquivo `dataset1_ancient_octave.mat` do Assigment1 do curso. E o vetor de pesos **w** desse exemplo é o `w_init`)
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/bias2D.jpg" width="500">
 
-Esses dois pontos encontram-se no plano 2D conforme a figura abaixo, mas vamos adicionar uma 3a dimensão que terá valor 1. 
+Esses dois pontos encontram-se no plano 2D conforme a figura abaixo, mas vamos adicionar uma 3a dimensão que terá sempre valor 1. 
 Assim, esses dois pontos serão **n** = (-0.81, 0.84, 1) e **p** = (0.87, 0.62, 1). Note que esses dois pontos estão no plano z=1.
 
-Agora, seja o vetor **w** = (-0.62, 0.76, 0.77) referente aos pesos, sendo que o ultimo elemento corresponde ao bias. Esse vetor define um plano que passa pela origem e tem a seguinte equação: -0.62x + 0.76y + 0.77z = 0. Conforme visto anteriormente, esse plano separa o espaço em dois lados:
+Agora, seja o vetor **w** = (-0.62, 0.76, 0.77) referente aos pesos. O ultimo elemento de **w** corresponde ao bias. Esse vetor define um plano que passa pela origem e tem a seguinte equação: -0.62x + 0.76y + 0.77z = 0. Conforme visto anteriormente, esse plano separa o espaço em dois lados:
 
-1. um lado cujos pontos **x** estão do mesmo lado que o vetor, assim o produto interno **w**.**x** será positivo
-2. outro lado cujos pontos **x** encontra-se no lado oposto ao vetor, assim o produto interno **w**.**x** será negativo
+1. um lado cujos pontos **x** estão do "mesmo lado" que o vetor, assim o produto interno **w**.**x** será positivo
+2. outro lado cujos pontos **x** encontra-se no "lado oposto" ao vetor, assim o produto interno **w**.**x** será negativo
 
-O ponto **n** está classificado incorretamente, enquanto **p** está corretamente classificado - para este valor de **w**.
+Note que nesse exemplo, o ponto **n** está classificado incorretamente, enquanto **p** está corretamente classificado.
 
 Agora sobre a interpretação geometrica do bias. A interseção do plano definido por 
 
@@ -58,7 +60,8 @@ será uma reta definida pela equação -0.62x + 0.76y + 0.77 = 0, ou aproximadam
 
 * y = 0.82x - 1
 
-https://www.youtube.com/watch?v=7p0CgaLevWE
+Se olharmos no plano 2D, essa reta será justamente a que divide os pontos classificados como positivos (acima da reta)
+dos pontos classificados como negativos (abaixo da reta).
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=7p0CgaLevWE" 
 target="_blank"><img src="http://img.youtube.com/vi/7p0CgaLevWE/0.jpg" 
