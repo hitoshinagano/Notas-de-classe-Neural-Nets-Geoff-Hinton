@@ -35,10 +35,27 @@ Então assim é a dinâmica do perceptron: um loop varre as observações, e a c
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/bias.png" width="500">
 
-Considere um ponto de classe negativa x_{neg} = (-0.81, 0.84) e um outro de classe positiva x_{pos} = (0.87, 0.62)
+Considere um ponto de classe negativa **n** = (-0.81, 0.84) e um outro de classe positiva **p** = (0.87, 0.62)
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/bias0.jpg" width="500">
 
-
 Esses dois pontos encontram-se no plano 2D conforme a figura abaixo, mas vamos adicionar uma 3a dimensão que terá valor 1. 
-Assim, esses dois pontos serão x_{neg} = (-0.81, 0.84, 1) e x_{pos} = (0.87, 0.62, 1)
+Assim, esses dois pontos serão **n** = (-0.81, 0.84, 1) e **p** = (0.87, 0.62, 1). Note que esses dois pontos estão no plano z=1.
+
+Agora, seja o vetor **w** = (-0.62, 0.76, 0.77) referente aos pesos, sendo que o ultimo elemento corresponde ao bias. Esse vetor define um plano que passa pela origem e tem a seguinte equação: -0.62x + 0.76y + 0.77z = 0. Conforme visto anteriormente, esse plano separa o espaço em dois lados:
+
+1. um lado cujos pontos **x** estão do mesmo lado que o vetor, assim o produto interno **w**.**x** será positivo
+2. outro lado cujos pontos **x** encontra-se no lado oposto ao vetor, assim o produto interno **w**.**x** será negativo
+
+Ambos os pontos **n** e **p** resultarãm em classificações erradas para esse valor de **w**.
+
+Agora sobre a interpretação geometrica do bias. A interseção do plano definido por 
+
+* -0.62x + 0.76y + 0.77z = 0  
+* z = 1
+
+será uma reta definida pela equação -0.62x + 0.76y + 0.77 = 0, ou aproximadamente
+
+* y = 0.82x - 1
+
+
