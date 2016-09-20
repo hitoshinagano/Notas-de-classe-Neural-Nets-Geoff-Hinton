@@ -81,7 +81,9 @@ Se **w** tivesse sua 3a dimensão sempre igual a zero, todas as interseções se
 
 ## Aula 3a: Learning weights of a linear neuron
 
-[//]: # ( It is not true for perceptron learning. Por volta 1:30, "...the outputs as whole can get further away from the target outputs, even though the weights are getting closer to a good set of weights...",... não entendi.)
+[//]: # (1:30 It is not true for perceptron learning. "...the outputs as whole can get further away from the target outputs, even though the weights are getting closer to a good set of weights...",... não entendi.)
 
+* 8:58 Uma explicação mais detalhada do *batch* learning versus *online* learning pode ser encontrada no material do Prof. Andrew Ng.
 
+* 11:01 Gostei desse exemplo. Features correlacionadas dificultam a convergencia da solução: "*It can be very slow if two input dimensions are highly correlated. If you almost always have the same number of portions of ketchup and chips, it is hard to decide how to divide the price between ketchup and chips.*
 
