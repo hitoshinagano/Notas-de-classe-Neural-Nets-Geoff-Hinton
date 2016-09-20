@@ -25,7 +25,7 @@ A atualização de **w**<-**w**+**x** gera um novo plano (em verde), sendo que o
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/apos_soma_w_com_x.png" width="500">
 
-Veja que a atualização de **w**<-**w**+**x** faz com que **w** se "aproxime" de x. (**w** é "puxado" no sentido de **x**). Essa aproximação faz aumentar as chances do produto interno se tornar positivo. De fato, se dois vetores tem um ângulo maior que 90 graus, somar **x** ao vetor **w**, fará o ângulo diminuir. 
+Veja que a atualização de **w**<-**w**+**x** faz com que **w** se "aproxime" do sentido de **x**. (**w** é "puxado" no sentido de **x**). Essa aproximação faz aumentar as chances do produto interno se tornar positivo. De fato, se dois vetores tem um ângulo maior que 90 graus, somar **x** ao vetor **w**, fará o ângulo diminuir. 
 
 Então assim é a dinâmica do perceptron: um loop varre as observações, e a cada observação **x**, o vetor **w** ora é puxado no sentido de **x**, ou empurrado para longe de **x** (\*), sendo que atualizações ocorrem somente quando erros de classificação são encontrados.
 
