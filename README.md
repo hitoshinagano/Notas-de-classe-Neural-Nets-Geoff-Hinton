@@ -81,7 +81,7 @@ Se **w** tivesse sua 3a dimensão sempre igual a zero, todas as interseções se
 
 ## Aula 3a: Learning weights of a linear neuron
 
-[comment]: <> ( It is not true for perceptron learning. Por volta 1:30, "...the outputs as whole can get further away from the target outputs, even though the weights are getting closer to a good set of weights...",... não entendi.)
+[//]: # ( It is not true for perceptron learning. Por volta 1:30, "...the outputs as whole can get further away from the target outputs, even though the weights are getting closer to a good set of weights...",... não entendi.)
 
 
 
