@@ -31,7 +31,7 @@ Então assim é a dinâmica do perceptron: um loop varre as observações, e a c
 
 (\*) caso onde o erro de classificação ocorre ao contrário do exemplo descrito acima, ou seja quando o ponto **x** é classe negativa, mas é classificado como positiva.
 
-## Aula 2b: Interpretação geométrica do bias
+## Aula 2b: Uma interpretação geométrica do bias
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/bias.png" width="500">
 
