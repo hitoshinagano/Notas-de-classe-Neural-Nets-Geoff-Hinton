@@ -87,3 +87,6 @@ Se **w** tivesse sua 3a dimensão sempre igual a zero, todas as interseções se
 
 * 11:01 Gostei desse exemplo. Features correlacionadas dificultam a convergencia da solução: "*It can be very slow if two input dimensions are highly correlated. If you almost always have the same number of portions of ketchup and chips, it is hard to decide how to divide the price between ketchup and chips.*
 
+* 11:15 Tambem desse exemplo. semelhanças entre online learning e perceptron: "*In perceptron learning, we increment or decrement the weight vector by the input vector. But we only change the weights when we make an error*"  
+
+
