@@ -33,4 +33,4 @@ Então assim é a dinâmica do perceptron: um loop varre as observações, e a c
 
 ## Interpretação geométrica do bias
 
-Considere um ponto de classe negativa $x_{neg} = (-0.81, 0.84)$ e um outro de classe positiva $x_{pos} = (0.87, 0.62)$
+Considere um ponto de classe negativa x_{neg} = (-0.81, 0.84) e um outro de classe positiva x_{pos} = (0.87, 0.62)
