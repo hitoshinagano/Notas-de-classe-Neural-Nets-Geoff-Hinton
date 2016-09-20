@@ -67,4 +67,4 @@ dos pontos classificados como negativos (abaixo da reta).
 target="_blank"><img src="http://img.youtube.com/vi/7p0CgaLevWE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-
+Se **w** tivesse sua 3a dimensão sempre igual a zero, todas as interseções sempre passariam por (x,y) = (0,0). O fato da 3a dimensão de **w** ser diferente de zero (imagine o plano ortogonal a **w** inclinando para um dos lados), faz com que a reta de interseção possa não passar por (0,0), aumentando as possibilidades de encontrar uma solução linearmente separável.  
