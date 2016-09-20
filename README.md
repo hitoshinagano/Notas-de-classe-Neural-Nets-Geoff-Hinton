@@ -47,7 +47,7 @@ Agora, seja o vetor **w** = (-0.62, 0.76, 0.77) referente aos pesos, sendo que o
 1. um lado cujos pontos **x** estão do mesmo lado que o vetor, assim o produto interno **w**.**x** será positivo
 2. outro lado cujos pontos **x** encontra-se no lado oposto ao vetor, assim o produto interno **w**.**x** será negativo
 
-Ambos os pontos **n** e **p** resultarãm em classificações erradas para esse valor de **w**.
+O ponto **n** está classificado incorretamente, enquanto **p** está corretamente classificado - para este valor de **w**.
 
 Agora sobre a interpretação geometrica do bias. A interseção do plano definido por 
 
