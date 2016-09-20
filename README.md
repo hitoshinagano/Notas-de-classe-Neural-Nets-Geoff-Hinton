@@ -58,4 +58,10 @@ será uma reta definida pela equação -0.62x + 0.76y + 0.77 = 0, ou aproximadam
 
 * y = 0.82x - 1
 
+https://www.youtube.com/watch?v=7p0CgaLevWE
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=7p0CgaLevWE" 
+target="_blank"><img src="http://img.youtube.com/vi/7p0CgaLevWE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 
