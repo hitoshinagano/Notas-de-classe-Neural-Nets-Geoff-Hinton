@@ -37,7 +37,7 @@ Então assim é a dinâmica do perceptron: um loop varre as observações, e a c
 
 Considere um ponto de classe negativa **n** = (-0.81, 0.84) e um outro de classe positiva **p** = (0.87, 0.62)
 
-<img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/bias0.jpg" width="500">
+<img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/bias2D.jpg" width="500">
 
 Esses dois pontos encontram-se no plano 2D conforme a figura abaixo, mas vamos adicionar uma 3a dimensão que terá valor 1. 
 Assim, esses dois pontos serão **n** = (-0.81, 0.84, 1) e **p** = (0.87, 0.62, 1). Note que esses dois pontos estão no plano z=1.
