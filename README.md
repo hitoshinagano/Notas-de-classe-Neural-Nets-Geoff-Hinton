@@ -2,7 +2,7 @@
 
 Algumas notas de classes sobre a matéria, observações e também algumas dúvidas.
 
-## Aula 2c
+## Aula 2c: treinamento do vetor de pesos **w**
 
 Nessa aula é apresentado um diagrama, conforme abaixo:
 
@@ -30,3 +30,7 @@ Veja que a atualização de **w**<-**w**+**x** faz com que **w** se "aproxime" d
 Então assim é a dinâmica do perceptron: um loop varre as observações, e a cada observação **x**, o vetor **w** ora é puxado no sentido de **x**, ou empurrado para longe de **x** (\*), sendo que atualizações ocorrem somente quando erros de classificação são encontrados.
 
 (\*) caso onde o erro de classificação ocorre ao contrário do exemplo descrito acima, ou seja quando o ponto **x** é classe 0, mas é classificado como 1
+
+## Interpretação geométrica do bias
+
+Considere um ponto de classe negativa $x_{neg} = (-0.81, 0.84)$ e um outro de classe positiva $x_{pos} = (0.87, 0.62)$
