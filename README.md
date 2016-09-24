@@ -89,4 +89,14 @@ Se **w** tivesse sua 3a dimensão sempre igual a zero, todas as interseções se
 
 * 11:15 Tambem desse exemplo. semelhanças entre online learning e perceptron: "*In perceptron learning, we increment or decrement the weight vector by the input vector. But we only change the weights when we make an error*"  
 
+## Aula 3b: 
+
+O professor faz duas colocações: 
+
+* No gradient descend, as variações caminham ortogonalmente as curvas de nível
+* No online learning, as variações caminham ortogonalmente as retas 'constraint' para cada peso
+
+<img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/Aula%203c%20grad%20descent%20e%20online%20learning.png" width="500">
+
+
 
