@@ -1,6 +1,7 @@
 # Notas de classe Neural Nets Prof. Geoff Hinton
 
-Algumas notas de classes sobre a matéria, observações e também algumas dúvidas.
+Algumas notas de classes sobre a matéria, observações e também algumas dúvidas,<br>
+e sempre em construção...
 
 ## Aula 2c: treinamento do vetor de pesos **w**
 
@@ -104,10 +105,13 @@ Para a primeira, pensei em rabiscar algumas equações, mas vi que o assunto est
 target="_blank"><img src="http://img.youtube.com/vi/Fpbdt376rGQ/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-... e daí, somente checar que:
-* a reta tangente a curva de nível é a interseção entre o plano tangente a superficie, e...
-* ... 
-* ... a projeção do vetor (normal ao plano tangente a superficie) sobre o plano z = k 
+... e daí, somente checar que (utilizando a mesma notação do vídeo):
+* interseção entre o plano **P** tangente a superficie **S** no ponto *(x_0, y_0, z_0)* e o plano *z = k*, ...
+* ... será a reta tangente à curva de nível. 
+* E a projeção do gradiente (vetor normal ao plano tangente a **S**) sobre o plano *z = k* ... 
+* ... e esse gradiente será perpendicular a essa curva de nível.
+
+
 
 
 
