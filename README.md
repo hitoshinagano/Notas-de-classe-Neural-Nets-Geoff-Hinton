@@ -104,5 +104,10 @@ Para a primeira, pensei em rabiscar algumas equações, mas vi que o assunto est
 target="_blank"><img src="http://img.youtube.com/vi/Fpbdt376rGQ/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
+... e daí, somente checar que:
+* a reta tangente a curva de nível é a interseção entre o plano tangente a superficie, e...
+* ... 
+* ... a projeção do vetor (normal ao plano tangente a superficie) sobre o plano z = k 
+
 
 
