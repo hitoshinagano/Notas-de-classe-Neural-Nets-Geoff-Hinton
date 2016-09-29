@@ -109,7 +109,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 * interseção entre o plano **P** tangente a superficie **S** no ponto *(x_0, y_0, z_0)* e o plano *z = k*, ...
 * ... será a reta tangente à curva de nível. 
 * E a projeção do gradiente (vetor normal ao plano tangente a **S**) sobre o plano *z = k* ... 
-* ... e esse gradiente será perpendicular a essa curva de nível.
+* ... será perpendicular à curva de nível.
 
 
 
