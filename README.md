@@ -98,5 +98,11 @@ O professor faz duas colocações:
 
 <img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/Aula%203c%20grad%20descent%20e%20online%20learning.png" width="500">
 
+Para a primeira, pensei em rabiscar algumas equações, mas vi que o assunto está super bem explicado em:
+
+<a href="https://www.youtube.com/watch?v=Fpbdt376rGQ" 
+target="_blank"><img src="http://img.youtube.com/vi/Fpbdt376rGQ/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 
 
