@@ -83,7 +83,7 @@ Se **w** tivesse sua 3a dimensão sempre igual a zero, todas as interseções se
 ## Aula 2e: What perceptrons can't do
 
 
-<img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/plano_e_seus_dois_lados.png" width="500">
+<img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/Aula%202e.png" width="500">
 
 
 ## Aula 3a: Learning weights of a linear neuron
