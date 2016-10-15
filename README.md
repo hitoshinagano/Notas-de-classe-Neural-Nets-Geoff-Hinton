@@ -117,7 +117,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 * E a projeção do gradiente (vetor normal ao plano tangente a **S**) sobre o plano *z = k* ... 
 * ... será perpendicular à curva de nível.
 
-
+Quanto ao 'zig-zag', segue um video que preparei. Explica as diferenças entre o batch e online gradient descent com um exemplo em duas dimensões. 
 
 
 
