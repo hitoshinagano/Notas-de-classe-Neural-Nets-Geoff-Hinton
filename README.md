@@ -120,7 +120,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 Quanto ao 'zig-zag', segue um video que preparei. Explica as diferenças entre o batch e online gradient descent com um exemplo em duas dimensões. 
 
 <a href="https://www.youtube.com/watch?v=xpfND2MNw-0" 
-target="_blank"><img src="https://img.youtube.com/watch?v=xpfND2MNw-0/0.jpg" 
+target="_blank"><img src="https://img.youtube.com/vi/xpfND2MNw-0/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
