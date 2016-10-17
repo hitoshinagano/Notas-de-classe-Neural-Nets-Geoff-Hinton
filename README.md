@@ -123,6 +123,8 @@ Quanto ao 'zig-zag', segue um video que preparei. Explica as diferenças entre o
 target="_blank"><img src="https://img.youtube.com/vi/xpfND2MNw-0/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
+## Aula 3c: 
 
+ 
 
 
