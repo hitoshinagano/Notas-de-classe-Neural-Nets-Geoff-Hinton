@@ -129,6 +129,6 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## Aula 3d: 
 
-<img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/Aula%203d%20new.png" width="500">
+<img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/Aula%203d%20new.png" width="800">
 
 
