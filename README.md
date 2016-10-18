@@ -133,3 +133,8 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 ... So we can clearly do that for as many layers as we like. And after we've done that for all these layers, we can compute how the error changes as you change the weights on the connections. That's the backpropagation algorithm. It's an algorithm for taking one training case, and computing, efficiently, for every weight in the network, how the error will change as, on that particular training case, as you change the weight.
+
+## Aula 3e:
+
+<img src="https://github.com/hitoshinagano/Notas-de-classe-Neural-Nets-Geoff-Hinton/blob/master/figuras/Aula%203e.png" width="500">
+
